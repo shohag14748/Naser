@@ -7,7 +7,7 @@ $(document).ready(function () {
         return false;
     });
 
-    $('a[href*="#"]').on('click', function(e) {
+    $('.scroll-next a[href*="#"]').on('click', function(e) {
       e.preventDefault()
       $('html, body').animate(
         {
